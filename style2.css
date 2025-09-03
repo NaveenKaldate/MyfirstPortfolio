@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    /* Space between nav and contact */
+    align-items: center;
+    padding: 0.50px;
+    /* Padding on left and right */
+    background-image: url("Grey\ and\ Black\ Simple\ Opening\ Soon\ Banner.jpg");
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(204, 200, 200);
+}
+
+#one {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    /* space between Home, Services, etc */
+}
+
+#one li a {
+    text-decoration: none;
+    color: rgb(53, 44, 44);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+#second {
+    list-style: none;
+    background-color: rgb(211, 217, 221);
+    padding: 5px 20px;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 5vw;
+
+}
+
+main {
+    background-color: rgb(231, 225, 218);
+    min-height: auto;
+    width: 100vw;
+}
+
+#m1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    margin-left: 5vw;
+
+}
+
+#m2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    font-weight: bolder;
+}
+
+#m2 li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    /* this ensures a circle bullet */
+    list-style-position: inside;
+}
+
+#m5 {
+    font-family: 'Pacifico', cursive;
+    /* A stylish Google Font */
+    font-size: 3vw;
+    text-align: center;
+    /* Center text horizontally */
+    margin: 0vh auto;
+    /* Center block */
+    width: 80vw;
+    /* Responsive width */
+    transform: rotate(-3deg);
+    /* Slight tilt */
+    color: transparent;
+    background: linear-gradient(45deg, #ff6b6b, #4d9f0c);
+    /* Gradient Text */
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    /* Soft shadow */
+    padding: 10px;
+
+}
+
+#m3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5vw;
+    font-weight: bolder;
+    margin-top: 5vh;
+
+}
+
+#m3 li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    /* this ensures a circle bullet */
+    list-style-position: inside;
+
+}
+
+#m4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5vw;
+    font-weight: bolder;
+    margin-top: 5vh;
+
+}
+
+#m4 li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    /* this ensures a circle bullet */
+    list-style-position: inside;
+
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#social img {
+    width: 30px;
+    height: auto;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 12px;
+    position: relative;
+    bottom: 50px;
+
+}
+
+footer {
+    background-color: rgb(204, 201, 201);
+    width: 100vw;
+
+}
